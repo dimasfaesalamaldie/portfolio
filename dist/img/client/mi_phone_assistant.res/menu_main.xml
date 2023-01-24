@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>  
+<Window bktrans="true" size="125,164">  
+ <Font id="0" name="Times New Roman" size="13" bold="false"/>
+ <Font id="1" name="Times New Roman" size="12"/>
+<VerticalLayout bkimage="file='imgs/bg_menu.png' source='2,5,114,157'">  
+    <List bordercolor="#dcdee1" bordersize="9" header="hidden" inset="8,8,8,8" itemhotimage="file='imgs/menu_hot_bk.png' corner='2,2,2,2'" itemdisabledbkcolor="#F2F2F2"> 
+        <ListContainerElement name="set_item" height="35" padding="1,1,1,1" inset="40,0,0,0">  
+            <Control float="true" pos="15,10,29,24" bkimage="imgs/menu_set.png"/>
+			<Label text="Settings" textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
+        </ListContainerElement>  
+		
+		<Control height="1" width="89" padding="11,0,0,0" bkimage="imgs/menu_sp.png"/>
+		
+		<ListContainerElement name="help_item" height="35" padding="1,0,1,0" inset="40,0,0,0" >  
+			<Control float="true" pos="15,10,29,24" bkimage="imgs/menu_help.png"/>
+            <Label text="Help"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
+        </ListContainerElement>  
+		
+		<Control height="1" width="89" padding="11,0,0,0" bkimage="imgs/menu_sp.png"/>
+		
+        <ListContainerElement name="update_item" height="35" padding="1,0,1,0" inset="40,0,0,0">  
+			<Control float="true" pos="15,10,29,24" bkimage="imgs/menu_update.png"/>
+            <Label text="Check for updates" textcolor="#444c58" mouse="false"  padding="11,0,0,0"/>  
+        </ListContainerElement>  
+        
+		<Control height="1" width="89" padding="11,0,0,0" bkimage="imgs/menu_sp.png"/>
+		
+		<ListContainerElement name="about_item" height="35" padding="1,0,1,1" inset="40,0,0,0" >
+			<Control float="true" pos="15,10,29,24" bkimage="imgs/menu_about.png"/>
+            <Label text="About"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
+        </ListContainerElement> 
+    </List>  
+</VerticalLayout> 
+</Window> 

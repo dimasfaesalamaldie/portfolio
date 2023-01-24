@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window type="window" size="720,500" mininfo="720,500" roundcorner="1,1" caption="0,0,0,35">
+	<Include source="style.xml" />
+	<VerticalLayout bkimage="file='imgs/bg_sec.png'">
+		<HorizontalLayout height="35" padding="5,3,5,5" childalign="right" >
+			<Control height="13" width="20" bkimage="file='imgs/mi_sec.png'" padding="10,0,0,0"/>
+			<Label text="Feedback" align="left" padding="5,0,5,0"/>
+						
+			<Button name="closebtn" align="right" width="11" height="11" 
+				normalimage="file='imgs/close_n_click_p.png' source='0,0,11,11'" hotimage="file='imgs/close_n_click_p.png' source='11,0,22,11'" pushedimage="file='imgs/close_n_click_p.png' source='22,0,33,11'" /> 
+			<HorizontalLayout width="12" />
+		</HorizontalLayout>		
+		
+		<TabLayout name="feed_tab" selectedid="2">
+			<VerticalLayout name="select_layout">
+				<Control height="115" width="139" bkimage="file='imgs/feed_ico.png'" padding="0,83,0,0"/>	
+				
+				<HorizontalLayout height="63" padding="0,54,0,0">
+					<VerticalLayout width="298" childalign="left" padding="61,35,0,0">
+						<Button name="mi_feed" text="Mi PC Suite" align="left" font="18" height="20" width="140" textcolor="#484e58" hottextcolor="#ff702c" pushedtextcolor="#ff702c"
+							normalimage="file='imgs/feed_mi.png' dest='151,3,168,20'" hotimage="file='imgs/feed_mi.png' dest='151,3,168,20'" pushedimage="file='imgs/feed_mi.png' dest='151,3,168,20'"/>
+						<Label text="Mi PC Suite Solutions to common issues!" visible="false" textcolor="#777e88" padding="0,3,0,0" font="14" align="left" />
+					</VerticalLayout>
+					
+					<Control height="43" width="1" bkimage="file='imgs/feed_sp.png'"/>
+					
+					<VerticalLayout width="299" childalign="left" padding="57,35,61,0">
+						<Button name="miui_feed" text="MIUI" align="left" font="18" height="20" width="140" textcolor="#484e58" hottextcolor="#ff702c" pushedtextcolor="#ff702c"
+							normalimage="file='imgs/feed_miui.png' dest='123,3,158,20'" hotimage="file='imgs/feed_miui.png' dest='123,3,158,20'" pushedimage="file='imgs/feed_miui.png' dest='123,3,158,20'"/>
+						<Label text="MIUI Solutions ot common issues!" visible="false" textcolor="#777e88" padding="0,3,0,0" font="14" align="left" />
+					</VerticalLayout>
+				</HorizontalLayout>
+				<Control height="78" bkimage="file='imgs/bg_sec.png' source='10,20,700,300'" padding="1,0,1,0"/>
+				<Button name="mi_faq" text="{u}Mi PC Suite FAQ{/u}" showhtml="true" textcolor="#5f86e2" align="left" width="180" normalimage="" hotimage="" pushedimage=""/>
+			</VerticalLayout>
+			
+			<VerticalLayout name="feed_mi_layout">
+				
+				<HorizontalLayout height="60" padding="120,90,0,0">
+					<Control  width="36" height="36" bkimage="file='imgs/common_heart.png'"/>
+					<Label text="Thank you for your valuable feedback!" textcolor="#484e58" font="20" align="left" padding="10,0,5,0"/>
+				</HorizontalLayout>
+				
+				
+				<HorizontalLayout height="18" padding="140,60,0,0">
+					<Control  width="18" height="18"/>
+					<Label text="1.Changelog:" textcolor="#8b94a5" align="left" width="198" padding="0,0,5,0"/>
+					<Button name="zip_log" text="{u}MiAssistant.zip{/u}" showhtml="true" textcolor="#5f86e2" align="left" width="100" normalimage="" hotimage="" pushedimage="" />
+				</HorizontalLayout>
+				
+				<HorizontalLayout height="18" padding="140,18,0,0">
+					<Control  width="18" height="18" />
+					<Label text="2.Proceed to" textcolor="#8b94a5" align="left" width="90" padding="0,0,5,0"/>
+					<Button name="push_log" text="{u}MIUI Forum{/u}" showhtml="true" textcolor="#5f86e2" align="left" width="95" normalimage="" hotimage="" pushedimage=""/>
+					<Label text="Create thread in the sf of 意见反馈 & attach-“MiAssistant.zip”" textcolor="#8b94a5" align="left" padding="0,0,0,0"/>
+				</HorizontalLayout>
+				<Control bkimage="file='imgs/bg_sec.png' source='10,20,700,300'" padding="1,0,1,1"/>
+			</VerticalLayout>
+			
+			<VerticalLayout name="feed_miui_layout">
+				
+				<HorizontalLayout height="60" padding="120,90,0,0">
+					<Control  width="36" height="36" bkimage="file='imgs/common_heart.png'"/>
+					<Label text="Thank you for your valuable feedback!" textcolor="#484e58" font="20" align="left" padding="10,0,5,0"/>
+				</HorizontalLayout>
+				
+				
+				<HorizontalLayout height="18" padding="140,60,0,0">
+					<Control  width="18" height="18"/>
+					<Label text="1.Go to:" textcolor="#8b94a5" align="left" width="45" padding="0,0,5,0"/>
+					<Button name="miui_forum" text="{u}MIUI Forum{/u}" showhtml="true" textcolor="#5f86e2" align="left" width="65" normalimage="" hotimage="" pushedimage="" />
+				</HorizontalLayout>
+				
+				<HorizontalLayout height="18" padding="140,18,0,0">
+					<Control  width="18" height="18" />
+					<Label text="2.Tap on 【反馈BUG】 and create a thread on your suggestions or feedback" textcolor="#8b94a5" align="left" width="400" padding="0,0,5,0"/>
+				</HorizontalLayout>
+				<Control bkimage="file='imgs/bg_sec.png' source='10,20,700,300'" padding="1,,1,1"/>
+			
+			</VerticalLayout>
+		</TabLayout>
+	</VerticalLayout>
+</Window>

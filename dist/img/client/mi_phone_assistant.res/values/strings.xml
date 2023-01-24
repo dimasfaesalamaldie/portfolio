@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">小米恢复模式刷机工具</string>
+  <string name="app_version_fmt">Version: %s</string>
+  <!-- net error code-->
+  <string name="net_error">Network Unstable</string>
+  <string name="code_xxxxx">Unknown Error[%d]</string>
+  <string name="code_2001">Unable to flash unofficial ROM Package</string>
+  <string name="code_2002">ROM is under beta testing. Please download a already released ROM package from MIUI Forum</string>
+  <string name="code_2003">抱歉无法支持回退到非次新以前版本</string>
+  <string name="code_2004">Unable to flash. Please use the Latest Stable ROM, downloaded from MIUI Forum instead.</string>
+  <string name="code_2005">Unable to flash. Please use the Latest Developer ROM, downloaded from MIUI Forum instead.</string>
+  <string name="code_2006">Due to internal issues, this ROM has been deleted.Please download the latest ROM from MIUI Forum instead.</string>
+  <string name="code_2007">The device is running on Vendor ROM. Please use Fastboot flashing to flash to the Latest Stable ROM, downloaded from MIUI Forum.</string>
+  <string name="code_2008">Unable to flash between different Android Versions. Please flash ROM via Fastboot Flashing.</string>
+  <string name="code_2099">The Update Package selected is not for this device. Please choose and download again from MIUI Forum.</string>
+  <string name="code_2009">Other</string>
+  
+  <string name="code_10000">10000:Unable to get device specifications</string>
+  <string name="code_10001">10001:Signature verification failed</string>
+  <string name="code_10002">10002:Webpage Busy. (IP)</string>
+  <string name="code_10003">10003:Internal Services failure</string>
+  <string name="code_10004">10004:Request timeout</string>
+  
+  <string name="code_20030">Only 1 device can be unlocked every 30 days</string>
+  <string name="code_20031">The device is not bound to this Mi Account</string>
+  <string name="code_20032">生成解锁所需的签名值失败</string>
+  <string name="code_20033">User Avatar resolution too low or contains illegal contents</string>
+  <string name="code_20034">This Mi Account is not able to unlock devices</string>
+  <string name="code_20035">Download the newest Mi Unlock Tool</string>
+  <string name="code_20036">Please wait %d hours before unlocking your device</string>
+  <string name="code_20037">Maximum device unlocked</string>
+  
+  <string name="select_ota_rom">Select ROM Package...</string>
+  <string name="ota_rom_filter">卡刷包</string>
+
+</resources>
